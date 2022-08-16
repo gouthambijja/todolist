@@ -11,7 +11,7 @@ const sessions = require("express-session");
 const session = require("express-session");
 const methodOverride = require("method-override");
 mongoose
-  .connect("mongodb://localhost:27017/userdata", {
+  .connect(process.env.dbURL, {
     useNewUrlParser: true,
   })
   .then(() => {
