@@ -60,6 +60,6 @@ button:active {
 }
 @media (max-width: 768px) {
   body {
-    background-position: 40%;
+    background-position: 50%;
   }
 }
